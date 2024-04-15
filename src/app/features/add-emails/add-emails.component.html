@@ -1,0 +1,14 @@
+<div class="container">
+    <form #form="ngForm" (ngSubmit)="onFormSubmit()">
+
+        <label for="emails">Please Write Emails Here:</label>
+        <br>
+        <br/>
+        <!--<input type="text" id="inputString" class="form-control" name="inputString" [(ngModel)]="model.inputString"> -->
+        <textarea id="emails" name="emails" rows="4" cols="100" [(ngModel)]="model.inputString"></textarea>
+        <br>
+        <button type="submit" class="btn-debug">Save</button>
+        <div class="mt-33">
+        </div>
+    </form>
+    </div>
