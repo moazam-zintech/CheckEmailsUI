@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { AddEmailsComponent } from './features/add-emails/add-emails.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { WrongEmailsComponent } from './features/wrong-emails/wrong-emails/wrong-emails.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddEmailsComponent
+    AddEmailsComponent,
+    WrongEmailsComponent
   ],
   imports: [
     BrowserModule,
