@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WrongEmailsComponent } from './wrong-emails.component';
+import { DisplayDataComponent } from './display-data.component';
 
-describe('WrongEmailsComponent', () => {
-  let component: WrongEmailsComponent;
-  let fixture: ComponentFixture<WrongEmailsComponent>;
+describe('DisplayDataComponent', () => {
+  let component: DisplayDataComponent;
+  let fixture: ComponentFixture<DisplayDataComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [WrongEmailsComponent]
+      declarations: [DisplayDataComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(WrongEmailsComponent);
+    fixture = TestBed.createComponent(DisplayDataComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
